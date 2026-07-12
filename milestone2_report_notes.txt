@@ -1,0 +1,32 @@
+IT 3203 Milestone 2 Report Notes
+
+Live site URL:
+https://jbrunson2001.github.io/MILESTONE-2/
+
+Main updates completed:
+1. Added a new quiz.html page.
+2. Added Quiz link to the menu on every page.
+3. Added script.js for JavaScript quiz checking.
+4. Quiz includes:
+   - One fill-in-the-blank question
+   - Three multiple-choice questions
+   - One multi-selection question
+5. Quiz displays:
+   - Pass/fail result
+   - Total score
+   - Each question score
+   - Correct/incorrect result
+   - Correct answer for every question
+6. Added a Retake Quiz button that clears inputs and results.
+7. Improved Home, History, Concepts, Engines, References, and About content.
+8. Fixed link styling.
+9. Added visual footer and made footer stick to the bottom.
+10. Kept source files organized and commented.
+
+Screenshots to add to final report:
+- Home page
+- Quiz page before taking quiz
+- Quiz page after submitting quiz
+- Quiz page after reset/retake
+- Code screenshot showing script.js
+- GitHub Pages live site screenshot

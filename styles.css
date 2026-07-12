@@ -1,3 +1,5 @@
+/* Basic CSS for IT 3203 Milestone 2 */
+
 body {
     font-family: Arial, sans-serif;
     background-color: white;
@@ -77,6 +79,61 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 6px;
+}
+
+/* Quiz styling */
+.question {
+    background-color: #fff3c4;
+    border: 2px solid #ffc629;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+input[type="text"] {
+    padding: 6px;
+    width: 250px;
+    border: 1px solid black;
+}
+
+button {
+    background-color: black;
+    color: #ffc629;
+    border: 2px solid #ffc629;
+    padding: 8px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffc629;
+    color: black;
+}
+
+#results {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.correct {
+    color: green;
+    font-weight: bold;
+}
+
+.incorrect {
+    color: red;
+    font-weight: bold;
+}
+
+.pass {
+    background-color: #d9ffd9;
+    border: 2px solid green;
+    padding: 10px;
+}
+
+.fail {
+    background-color: #ffd9d9;
+    border: 2px solid red;
+    padding: 10px;
 }
 
 footer {
