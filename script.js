@@ -1,5 +1,3 @@
-
-
 function getRadioAnswer(name) {
     var options = document.getElementsByName(name);
 
