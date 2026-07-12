@@ -1,4 +1,4 @@
-// JavaScript quiz for IT 3203 Milestone 2
+
 
 function getRadioAnswer(name) {
     var options = document.getElementsByName(name);
@@ -47,7 +47,7 @@ function checkQuiz() {
     var points = 20;
     var results = "";
 
-    // Question 1
+
     var q1 = document.getElementById("q1").value.trim().toLowerCase();
     if (q1 === "gecko") {
         score = score + points;
@@ -56,7 +56,8 @@ function checkQuiz() {
         results += "<p><span class='incorrect'>Question 1: Incorrect.</span> Score: 0/20. Answer: Gecko.</p>";
     }
 
-    // Question 2
+
+    
     var q2 = getRadioAnswer("q2");
     if (q2 === "WebKit") {
         score = score + points;
@@ -65,7 +66,7 @@ function checkQuiz() {
         results += "<p><span class='incorrect'>Question 2: Incorrect.</span> Score: 0/20. Answer: WebKit.</p>";
     }
 
-    // Question 3
+
     var q3 = getRadioAnswer("q3");
     if (q3 === "HTML") {
         score = score + points;
@@ -74,7 +75,8 @@ function checkQuiz() {
         results += "<p><span class='incorrect'>Question 3: Incorrect.</span> Score: 0/20. Answer: HTML.</p>";
     }
 
-    // Question 4
+
+    
     var q4 = getRadioAnswer("q4");
     if (q4 === "Style") {
         score = score + points;
@@ -83,7 +85,8 @@ function checkQuiz() {
         results += "<p><span class='incorrect'>Question 4: Incorrect.</span> Score: 0/20. Answer: Style and layout.</p>";
     }
 
-    // Question 5
+
+    
     var q5 = getCheckboxAnswers("q5");
     var q5Correct = ["Blink", "Gecko", "WebKit"];
     if (sameAnswers(q5, q5Correct)) {
